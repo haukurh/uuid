@@ -1,0 +1,25 @@
+{
+    "name": "haukurh/uuid",
+    "description": "Library for generating RFC 4122 complaint universally unique identifier (UUID)",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Haukurh\\Uuid\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Haukur Hlöðversson",
+            "email": "haukur@haukurh.is"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "stable"
+}
